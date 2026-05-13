@@ -492,8 +492,8 @@
   <div class="hero-bubbles">
     <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
   </div>
-  <h1>🚽 깨끗한 화장실을<br>쉽게 찾아보세요</h1>
-  <p>주변 화장실을 검색하고, 솔직한 리뷰를 남겨보세요.<br>모두가 더 행복한 화장실 문화를 함께 만들어요!</p>
+  <h1>🚽 당신의 화장실을<br>세상에 공유해보세요🚽</h1>
+  <p>안녕? 나 변기걸즈예요<br>지금 당신의 화장실을 리뷰하라!!</p>
   <div class="hero-cta">
     <button class="btn-hero btn-hero-main" onclick="openModal()">✍️ 리뷰 작성하기</button>
     <button class="btn-hero btn-hero-sub" onclick="document.querySelector('.search-section').scrollIntoView({behavior:'smooth'})">🔍 화장실 검색</button>
@@ -542,7 +542,7 @@
       <button class="btn btn-primary" style="width:100%; border-radius:10px;">지도에서 보기</button>
     </div>
     <div class="side-card">
-      <div class="side-card-title">🏆 이번 달 TOP 5</div>
+      <div class="side-card-title">🏆 추천 화장실 </div>
       <div id="top-places"></div>
     </div>
   </aside>
@@ -550,7 +550,7 @@
 
 <footer>
   <div style="font-weight:900; font-size:1.2rem; color:#fff; margin-bottom:0.5rem;">🚽 HappyToilet</div>
-  <p>© 2026 HappyToilet · 더 깨끗한 세상을 위해</p>
+  <p>© 2026 Happytoilet_ceo · 전국 화장실을 리뷰하는 그 날까지</p>
 </footer>
 
 <!-- MODAL -->
@@ -682,8 +682,8 @@ function renderReviews(list) {
 function renderTopPlaces() {
     // 임시 TOP 5 데이터 (실제 데이터 기반으로 쿼리 가능)
     const tops = [
-        { name: '스타벅스 강남대로점', sub: '서울 강남구', score: '5.0' },
-        { name: '코엑스몰 B1', sub: '서울 강남구', score: '4.8' }
+        { name: '310관 7층 한강뷰 화장실 ', sub: '서울 동작구', score: '5.0' },
+        { name: '약대 1층 화장실', sub: '서울 동작구', score: '4.8' }
     ];
     document.getElementById('top-places').innerHTML = tops.map((p, i) => `
         <div class="top-place">
